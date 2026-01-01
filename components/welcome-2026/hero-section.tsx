@@ -85,7 +85,7 @@ export default function HeroSection() {
         animate="visible"
       >
         <motion.div variants={itemVariants} className="mb-8">
-          <span className="text-[#F5C542] text-lg font-light tracking-widest">✨ WELCOME</span>
+          <span className="text-[#F5C542] text-lg font-light tracking-widest"> WELCOME</span>
         </motion.div>
 
         <motion.h1
@@ -105,7 +105,7 @@ export default function HeroSection() {
         <motion.p variants={itemVariants} className="text-lg md:text-xl text-[#4FD1FF] mb-12 font-light">
           Let's build better, stronger, and closer to Allah.
         </motion.p>
-
+          <p className="text-lg md:text-xl text-[#4FD1FF] mb-12 font-light"> Remaining Time to achieve all my goals</p>
         {/* Countdown */}
         <motion.div variants={itemVariants} className="flex gap-8 justify-center text-center mb-12">
           {[
